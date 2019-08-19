@@ -17,3 +17,5 @@ def test_captha_chek():
     dom_shadow(driver, "1111")
 
     assert driver.find_element_by_id("captcha-image")
+
+    driver.close()
